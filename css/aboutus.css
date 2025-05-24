@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f1ee;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.hero {
+  background-color: #7e9b84;
+  color: white;
+  padding: 40px 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.about-section {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.text-content h2 {
+  color: #6b5e51;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4b4b4b;
+}
+
+.goals-section {
+  background-color: #e5e2dc;
+  padding: 40px 20px;
+}
+
+.goal-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: #7e9b84;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #7e9b84;
+  color: white;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.footer p {
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.footer-slogan {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 20px;
+}

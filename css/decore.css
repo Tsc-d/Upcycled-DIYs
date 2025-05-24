@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f1ea;
+  color: #333;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: #4c4328;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #766f5e;
+  margin-bottom: 2rem;
+}
+
+.decore-wrapper {
+  padding: 0 2rem 3rem;
+}
+
+.decore-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.decore-card {
+  background-color: #fffefb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.decore-card:hover {
+  transform: scale(1.02);
+}
+
+.decore-img {
+  width: 50%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.decore-info {
+  padding: 1.5rem;
+  width: 50%;
+}
+
+.decore-info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+  color: #3e3620;
+}
+
+.decore-info p {
+  font-size: 1rem;
+  color: #5a5240;
+  margin-bottom: 1rem;
+}
+
+.step-btn {
+  display: inline-block;
+  background-color: #a3b18a;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.step-btn:hover {
+  background-color: #7f9c66;
+}
+
+.decore-card {
+    flex-direction: column;
+  }
+
+  .decore-img, .decore-info {
+    width: 100%;
+  }
+
+  .decore-img {
+    height: 200px;
+  }

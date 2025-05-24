@@ -1,0 +1,78 @@
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f1ec;
+      color: #4a3e34;
+    }
+
+    .container {
+      max-width: 1800px;
+      margin: 3rem auto;
+      background: #fdfaf6;
+      padding: 2rem;
+      border-radius: 1.2rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .welcome-box {
+      background-color: #d7e4d2;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .welcome-text h2 {
+      margin: 0;
+      font-size: 2rem;
+      color: #3a4733;
+    }
+
+    .welcome-text p {
+      margin: 0.5rem 0 0;
+      color: #5a4e40;
+    }
+
+    .rules-box {
+      background-color: #eee4d3;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      height: 500px;
+    }
+
+    .rules-box h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #6d5b4f;
+    }
+
+    .rules-columns {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .rules-columns div {
+      flex: 1;
+      font-size: 0.95rem;
+      color: #5f5245;
+    }
+
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      border-radius: 0.5rem;
+      object-fit: cover;
+      height: 300px;
+    }
+
+    
